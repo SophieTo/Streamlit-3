@@ -3,7 +3,7 @@ from streamlit_authenticator import Authenticate
 from streamlit_option_menu import option_menu
 import pandas as pd
 
-df = pd.read_csv("comptes.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/SophieTo/Streamlit-3/refs/heads/main/comptes.csv")
 # Initialiser le dictionnaire des données utilisateurs
 lesDonneesDesComptes = {'usernames': {}}
 
